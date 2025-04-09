@@ -104,7 +104,7 @@
   },
   "scripts": {
   "dev": "tsx server/index.ts",
-  "build": "vite build",
-  "start": "node dist/server/index.js"
+  "build": "tsc && vite build",
+  "postbuild": "tsc --project tsconfig.server.json"
 }
 }
