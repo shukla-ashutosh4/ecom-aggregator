@@ -9,6 +9,6 @@
     }
   },
   "env": {
-    "SCRAPE_DO_API_KEY": "@scrape_do_api_key"
-  }
+  "NODE_ENV": "production"
+}
 }
