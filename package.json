@@ -101,8 +101,5 @@
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
-  },
-  "scripts": {
-  "build:gh-pages": "vite build --base=/ecom-aggregator/"
-}
+  }
 }
