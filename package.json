@@ -103,7 +103,8 @@
     "bufferutil": "^4.0.8"
   },
   "scripts": {
-  "build:gh-pages": "vite build --base=/ecom-aggregator/"
+  "dev": "tsx server/index.ts",
+  "build": "vite build",
+  "start": "node dist/server/index.js"
 }
-  
 }
